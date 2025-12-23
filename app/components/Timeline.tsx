@@ -12,7 +12,6 @@ import Typography from '@mui/material/Typography';
 import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 
 export default function CustomizedTimeline() {
   return (
