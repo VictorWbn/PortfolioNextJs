@@ -1,0 +1,17 @@
+services:
+  myportfolio:
+    container_name: portfolio
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    networks:
+      - portfolio-network
+
+networks:
+  portfolio-network:
+    driver: bridge
